@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassRoom
 {
-    public class KlasseRum
+    public class ClassRoom
     {
         public string NameofClass { get; set; }
 
@@ -14,7 +14,7 @@ namespace ClassRoom
 
         public DateTime SemesterStart { get; set; }
 
-        public KlasseRum()
+        public ClassRoom()
         {
             ListOfClass = new List<Student>();
             SemesterStart = new DateTime();
